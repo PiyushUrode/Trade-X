@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {  supportedNetworks } from '../Dummydata.js'; // Importing dummy data
-import "../../Contentpagescss/kyc.css"
 
 const SupportedNetwork = () => {
 

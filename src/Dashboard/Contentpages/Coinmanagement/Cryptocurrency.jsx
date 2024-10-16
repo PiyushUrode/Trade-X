@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Cryptocurrencydata } from '../Dummydata.js'; // Importing dummy data
-import "../../Contentpagescss/kyc.css";
 
 const Cryptocurrency = () => {
   const [searchQuery, setSearchQuery] = useState("");

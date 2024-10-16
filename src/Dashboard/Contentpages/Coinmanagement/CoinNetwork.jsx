@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Coinnetworksdata } from '../Dummydata.js'; // Importing dummy data
-import "../../Contentpagescss/kyc.css";
 
 const CoinNetwork = () => {
   const [searchQuery, setSearchQuery] = useState("");

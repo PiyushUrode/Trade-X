@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { users } from '../Dummydata.js'; // Importing dummy data
-import "../../Contentpagescss/kyc.css"
 
 const Kyc = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -56,7 +55,7 @@ const Kyc = () => {
 
       <div className="kycmain px-6">
         <div className="kyc-pending py-2">
-          <h2 className="text-left text-lg font-medium">Pending ID verification</h2>
+          <h2 className="text-left text-lg text-4xl font-medium">Pending ID verification</h2>
         </div>
 
         <div className="kyc-part2 flex justify-between items-center mb-6">

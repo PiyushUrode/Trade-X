@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Networks } from '../Dummydata.js'; // Importing dummy data
-import "../../Contentpagescss/kyc.css";
+
 
 const Network = () => {
   const [searchQuery, setSearchQuery] = useState("");

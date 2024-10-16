@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 2rem; */
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+
+  background-color: #000000f5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  
+
+  --swiper-pagination-color: var(--secondry1-color);
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-pagination-bullet-width: 14px;
+  --swiper-pagination-bullet-height: 14px;
+  --swiper-pagination-bullet-inactive-color: #ffffff;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+body,
+html {
+
+
+  
+  scroll-behavior: smooth;
+  margin: 0;
+  height: 100%;
+
+
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--bColor);
+  -webkit-font-smoothing: antialiased;
+
+  min-width: 300px;
+
+  min-height: 100vh;
+
+  --primary-color: 16, 128, 89;
+  --text-primary-color: #ffffff;
+  --text-primary-color-2: #ffffff;
+  --text-primary-color-3: #ffffff;
+  --text-primary-color-4: #cbcfd8;
+  --border-color: #535353;
+  --border-color-1: #535353;
+  --border-color-2: #ffffff;
+  --hover-color: #108059;
+  --font-color: #ffffff;
+  --bColor: #ffffff;
+  --title-color: #ffffff;
+  --white: #ffffff;
+  --black: #000000;
+  --color-pallet-1: #535353;
+  --background-color: #151515;
+  --background-color-trade: #2a2e37;
+  --main-background-color: #070000;
+  --card-background-color: #282828;
+  --table-background-color: #353535;
+  --footer-background-color: #03150f;
+  --background-color-hover: #3a3a3a;
+  --authentication-page-text-color: #ffffff;
+  --primary-background-color: #151515;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}

@@ -1,0 +1,15 @@
+.Trade{display: flex; flex-direction: column; gap: 50px;  padding:4rem 4rem ;}
+.Trademain{display: flex; flex-direction: row;     border: 2px solid rgba(46, 46, 46, 0.203)  }
+.Trademain-A {display: flex;  padding-top: 30px; padding-bottom: 30px;  flex-direction: column; border: 2px solid rgba(46, 46, 46, 0.203); justify-content: center;  align-items: center; text-align: left; gap: 20px;}
+.Trademain-A  h2{font-size: 2rem;}
+.Trademain-A  p{font-size: 1rem; text-align: left;}
+.Tradeimg{width: 100px;} 
+
+.Faq-main{background-color:rgba(0, 208, 149, 0.058) ;}
+@media (min-width:300px) and (max-width :600px) {
+    .Trademain{display: flex; 
+    flex-direction: column;
+
+}
+.Trademain-A  p{align-items: center; text-align: center;}
+}

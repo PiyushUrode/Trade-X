@@ -1,0 +1,136 @@
+/* Footer Styles */
+.footer {
+
+padding-top: 3rem;
+padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+  
+    }
+    
+    .footer__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      text-align: left;
+      flex-wrap: wrap;
+      
+    }
+  
+    .footer__social-link{width: 40px;}
+    
+    .footer__section {
+      flex: 1;
+      margin-bottom: 20px;
+      text-align: left;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 250px;
+    }
+    
+    .footer__logo {
+      width: 25%; /* Adjust logo size as needed */
+      margin: 0 auto; /* Center logo horizontally */
+    }
+    
+    .footer__description {
+      margin: 10px 0; /* Add some space above and below description */
+      font-size: 0.8rem; /* Adjust description font size */
+      color: #f5f5f5; /* Set a subdued color for description */
+      text-align: center;
+    }
+    
+    .footer__social {
+      display: flex;
+      justify-content: center; /* Center social media icons horizontally */
+      margin-top: 15px; /* Add some space above social icons */
+    }
+    
+    .footer__social-link {
+      margin-right: 10px; /* Add some spacing between social media icons */
+      color: #f5f5f5; /* Set a darker color for social media icons */
+      font-size: 1.2rem; /* Increase social media icon size */
+       /* border-radius: 10px;
+  background: #35353585;
+  box-shadow:  10px -5px 49px #101010,
+               10px 5px 49px hsl(0, 0%, 100%); */
+     
+    }
+    
+    .footer__heading {
+      font-size: 1.1rem; /* Adjust heading font size */
+      margin-bottom: 10px; /* Add some space below heading */
+      text-transform: uppercase; /* Convert heading text to uppercase for emphasis */
+    }
+    
+    .footer__list {
+      list-style: none; /* Remove default bullet points */
+      padding: 0; /* Remove default list padding */
+    }
+    
+    .footer__link {
+      color: #f5f5f5; /* Set a darker color for links */
+      text-decoration: none; /* Remove underline from links */
+      transition: color 0.2s ease-in-out; /* Add smooth hover effect */
+    }
+    
+    .footer__link:hover {
+      color: #007bff; /* Change link color on hover */
+    }
+    
+    .footer__copyright {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      /* font-size: 1rem; */
+      justify-content: center;
+      text-align: center;
+      font-size: 0.8rem; /* Adjust copyright text size */
+      color: #f5f5f5; /* Set a subdued color for copyright text */
+      margin-top: 20px; /* Add some space above copyright text */
+    }
+    
+    /* Media Queries for Responsive Behavior */
+    
+    
+    
+  
+    @media (min-width: 300px) and (max-width: 600px) {
+      .footer{ display: flex; flex-direction: column; width: 100vw;}
+      .footer__container{ display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;}
+  
+        .footer__section{ width: 100%;gap: 10px; text-align: center;}
+        .footer__logo{width: 8rem;}
+        .footer__description{font-size: 1rem;}
+        .footer__heading{font-size: 1.5rem; font-weight: 600; margin: 1px;}
+        .footer__list{
+          gap: 10px;
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+        }
+  
+  
+  
+  
+     }
+  
+      @media (min-width: 600px) and (max-width: 780px) {
+        .footer{ display: flex; flex-direction: column;}
+        .footer__container{ display: flex; flex-direction: row;  width: 100%;
+  
+        flex-wrap: wrap;
+        }
+        .footer__section{ width: fit-content;}
+    }
+    

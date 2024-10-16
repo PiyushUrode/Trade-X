@@ -1,0 +1,300 @@
+.contact {
+    width: auto;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0rem;
+  }
+  
+  .contact-left {
+    width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
+
+  .contact-right {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .contact-right-a {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-right-a-h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    background: linear-gradient(
+      27deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(121, 121, 121, 1) 100%
+    );
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    color: transparent;
+    
+  }
+  
+  .contact-right-div {
+    height: 1px;
+    width: 50%;
+    /* opacity: 20%; */
+    /* background: rgb(153,153,153); */
+    /* border-image: radial-gradient(circle, rgba(153,153,153,1) 0%, rgba(255,255,255,1) 0%, rgba(153,153,153,1) 100%); */
+    background: linear-gradient(
+      90deg,
+      rgba(153, 153, 153, 0.323) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(153, 153, 153, 0.351) 100%
+    );
+    /* border: 1px solid transparent; */
+    width: 70%;
+    filter: blur(5);
+  }
+  
+  .contact-right-aa {
+
+  
+    width: 80%;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .info {
+    width: 30%;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .info1 {
+    font-size: 1.5rem;
+    width: 50%;
+    background-position-x: #515151;
+    opacity: 90%;
+    background-color: rgba(0, 0, 0, 0.105);
+    border-bottom: 2px solid #515151;
+  }
+  /* #submit {
+    font-size: 1.5rem;
+    background: linear-gradient(
+      27deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(121, 121, 121, 1) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    align-items: baseline;
+    display: flex;
+  flex-direction: column;
+  
+    border-bottom: 2px solid #6640ff76;
+  
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  } */
+
+
+  button {
+    margin: 20px;
+  }
+  .custom-btn {
+    z-index: 10;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  /* 16 */
+  .btn-16 {
+    border: none;
+    color: #ffffff;
+  }
+  .btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+      7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  .btn-16:hover {
+    color: #ffffff;
+  }
+  .btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-16:active {
+    top: 2px;
+  }
+
+  .image-hover-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+  }
+  
+  .contact-left-img {
+    display: block;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .image-hover-wrapper:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 25px 0px #fff9,
+                7px 7px 20px 0px #0002, 4px 4px 25px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  
+  .image-hover-wrapper:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  
+  .image-hover-wrapper:hover .contact-left-img {
+    color: #ffffff; /* If you have a color change effect on hover */
+  }
+  
+  
+   
+  
+  @media (min-width: 300px) and (max-width: 600px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      background-color: black;
+    }
+    .contact-left {
+      width: 100%;
+      padding: 0.25rem;
+    }
+    .contact-right {
+      width: 100%;
+      background-color: black;
+      padding: 0.25rem;
+    }
+    .contact-right-aa {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .contact-right-a-h1 {
+      font-size: 1.5rem;
+    }
+    .form {
+      column-gap: 20px;
+      width: 100%;
+    }
+  
+    .form-1{display: flex; flex-direction: column;}
+    .info {
+      font-size: 1rem;
+      width: 100%;
+    }
+    .info1 {
+      font-size: 1rem;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 760px) {
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contact-left {
+      width: 100%;
+    }
+    .contact-right {
+      width: 100%;
+    }
+    .contact-right-aa {
+      margin-top: 5px;
+    }
+    .contact-right-a-h1 {
+      font-size: 1.5rem;
+    }
+    .info {
+      font-size: 0.8rem;
+    }
+    .info1 {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 760px) and (max-width: 980px) {
+    .contact-right-aa {
+      margin-top: 10px;
+    }
+    .contact-right-a-h1 {
+      font-size: 2rem;
+    }
+    .info {
+      font-size: 0.8rem;
+    }
+    .info1 {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 980px) and (max-width: 1280px) {
+  }
+  
